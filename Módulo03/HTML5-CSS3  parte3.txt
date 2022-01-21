@@ -34,7 +34,7 @@ A exclusão deve ser feita pelo GitHub Desktop.
 Selecione o repositório -> Aba Repository -> Remove
 ------------------------------------------------------
 
-HOSPEDAR SITE com o GUTHUB PAGES:
+HOSPEDAR SITE com o GITHUB PAGES:
 
 Abrir o Repositório desejado.
 
@@ -42,6 +42,28 @@ Clicar em Settings e ir até GitHub Pages.
 
 Depois em Choose a theme e selecione um tema.
 
+PRIMEIRA FORMA:
 
+Crie um novo repositório no GitHub Desktop com o nome e as outras informações.
+
+NÃO inicialize com o arquivo Read-me e deixe Público.
+
+Copie e Cole os arquivos para essa nova pasta criada.
+
+Depois altere o nome do arquivo Chrome para index.html e faça o Commit e Push.
+
+Vá em Repositories no GitHub -> Selecione o Projeto 
+-> Settings -> GitHub Pages -> Selecione Main Branch
+
+Isso irá gerar um link que pode er acessado:
+https://ericberlim.github.io/projeto-android/
+
+SEGUNDA FORMA:
+
+No GitHub Pages irá gerar um link como esse:
+https://ericberlim.github.io/HTML5-CSS3/
+
+Para acessar os exercícios deve inserir após a barra:
+https://ericberlim.github.io/HTML5-CSS3/exercicios/001.index.html
 
 ------------------------------------------------------
