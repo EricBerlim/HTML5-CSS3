@@ -8,9 +8,9 @@ CRIAR REPOSITÓRIO:
 
 No GitHub Desktop você pode criar um novo Repositório, preenchendo as informações abaixo:
 
-Nome: pode ser igual ao da pasta. ex:html5-css3.
+Nome: pode ser igual ao da pasta. ex:HTML5-CSS3.
 
-Descrição: Curso do Curso em Vídeo
+Descrição: Curso do Curso em Video
 
 Local: tem que ser a pasta onde estão as sub-pastas
 
@@ -23,7 +23,6 @@ License: MIT License
 Após criar, DESMARQUE a opção PRIVATE.
 
 Caso a criação tenha sido feita private:
-
 Vá no site GitHub -> Repositório -> Settings -> Vá para o fim da página -> Danger Zone -> Mudar para Repositório Público
 ------------------------------------------------------
 
@@ -82,11 +81,12 @@ Requisitos:
 - Git
 - GitHub Desktop
 
-Abrir o GitHub Desktop -> File -> Options -> Accounts -> GitHub.com -> Logar -> File -> Options -> Git-Save
+Abrir o GitHub Desktop -> File -> Options -> Accounts -> GitHub.com -> Logar -> File -> Options -> Git -> Clicar no campo Name e no E-mail -> Salvar
 
-Selecione o repositório -> Clique em clonar -> Escolher a pasta onde armazenar o seu repositório
+Selecione o Repositório -> Clique em Clonar -> Escolher a Pasta para armazenar -> PRONTO
 
+PARA SAIR: Só com o GitHub Desktop aberto:
 
-
+Aba Reposiry -> Remove -> Marcar a Caixa -> Remove -> File -> Options -> Sign Out -> Git -> Apagar Nome e E-mail -> Salvar -> Esvaziar a Lixeira -> PRONTO  
 
 ------------------------------------------------------
