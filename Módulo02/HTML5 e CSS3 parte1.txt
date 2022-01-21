@@ -1,0 +1,245 @@
+------------------------------------------------------
+HTML5 e CSS3 - PARTE 1:
+------------------------------------------------------
+
+A EMOÇÃO das CORES:
+
+Neil Patel em "Como cores afetam conversões" afirma que as pessoas levam cerca de 90 segundos para decidir se querem ou não um produto, e que 90% desse decisão baseia-se na sua cor
+As cores passam emoção para o subconsciente das pessoas
+
+CÍRCULO CROMÁTICO:
+
+As cores são separadas em grupos para que possamos decidir se
+as escolhas que vamos fazer para o nosso site vão fazer um sentido harmônico e para que agrade os visitantes
+
+CORES PRIMÁRIAS: Amarelo, Vermelho e Azul
+
+CORES SECUNDÁRIAS: Laranja, Roxo e Verde
+
+CORES TERCIÁRIAS: (Tons Pastéis):
+
+Amarelo-esverdeado
+Amarelo-alaranjado
+Vermelho-alaranjado
+Vermelho-arroxeado
+Azul-arroxeado
+Azul-esverdeado
+
+TIPOS de CORES:
+
+Quentes:
+Calor e Proximidade
+
+Frias:
+Calma, Frescor e Tranquilidade
+
+Complementares:
+Maior Contraste e localizadas no lado oposto. Juntando duas cores complementares, sempre obtemos o Cinza
+
+Análogas:
+Menor Contraste, vizinhas e alto grau de Harmonização. Podem ser usadas juntas e no mesmo design
+
+Análogas mais uma Complementar:
+Combinação das duas anteriores, incluindo 3 cores de um lado e 1 cor do lado oposto com grande contraste
+
+Análogas Relacionadas:
+Duas cores Análogas consecutivas e pula para uma terceira cor e escolhemos a 4 cor também
+
+Intercaladas:
+Pouco utilizada, pois escolhe-se uma cor depois mais duas com o mesmo intervalo entre elas
+
+Triádicas:
+Muito utilizada, escolhe-se 3 cores que formem um triângulo equilátero, resultando em um ótimo contraste
+
+Quadrado:
+Permite 4 cores com um constraste razoável entre elas e deve formar um quadrado perfeito com os pontos selecionados
+
+Tetrádicas:
+Técnica que escolhe 2 pares de cores Complementares, formando um retângulo fino com 4 cores com alto contraste
+
+Monocromia: (Degradê):
+Usa apenas 1 cor, porém em Degradê, dando um ótimo resultado
+------------------------------------------------------
+
+FUNÇÕES de CORES no CSS:
+
+rgb()
+rgba()
+hsl()
+hsla()
+
+GRADIENTE:
+
+<style>
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+background-image: linear-gradient(90deg, yellow, red);
+color: black;
+}
+
+O Gradiente é considerado pelo navegador como se fosse uma imagem, por isso usa-se "background-image" no CSS.
+
+O "90deg" indica a inclinação de 90º no Degradê.
+
+Pode ser inserida qualquer quantidade de cores, uma vez que o próprio navegador saberá gerar o Degradê.
+------------------------------------------------------
+
+TIPOGRAFIA:
+
+É a arte e o processo de criação e impressão de um texto, física ou digitalmente.
+
+O topo e a base da letra x minúscula determina o tamanho de todas as outras letras.
+
+TAMANHOS de FONTES:
+
+Medidas Absolutas: PX, cm, mm e in(polegada).
+
+16px = 1em
+
+Medidas Relativas: 
+
+EM: tamanho atual da fonte
+ex: altura x da fonte
+rem: fonte da raiz
+vw: largura da tela
+vh: altura da tela
+
+Configurações de Fontes em 1 linha: (shorthand font)
+
+Nessa ordem:
+font-style -> font-weidth -> font-size -> font-family.
+
+ex: font: italic bolder 3em 'Work Sans', sans-serif;
+
+IMPORTAR FONTES:
+
+Deve-se inserir o @import da fonte escolhida.
+
+Inserir nas primeiras linhas da tag <style> no HTML, ou no início de um documento CSS.
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+FONTES EXTERNAS:
+
+Inserir o @font-face nas primeiras linhas do CSS.
+
+@font-face {
+       font-family: 'Seagram';
+       src: url('Seagram tfb.ttf') format('truetype');
+}
+
+Tipos de Format():
+
+- opentype (.otf)
+- truetype (.ttf)
+- embedded-opentype
+- truetype-aat
+- svg
+------------------------------------------------------
+
+SELETORES:
+
+Tudo que em HTML é "id", em CSS é "#"
+
+Tudo que em HTML é "class", em CSS é "."
+
+ID é único para cada tag.
+
+CLASS pode ser múltipla para várias tags.
+
+PSEUDO-CLASSES:
+
+São relacionadas pelo estado de determinado elemento e
+são identificadas por ":"
+
+HOVER: ao passar o mouse em cima
+
+div:hover{
+            
+}
+
+O símbolo quer dizer que a div tem um filho parágrafo:
+
+div > p{
+            
+}
+div:hover > p{
+            display: block;
+            color: white;
+            width: 200px;
+            background-color: blue;
+}
+
+VISITED: links já clicados
+
+a:visited{
+            color: blueviolet;
+}
+
+ACTIVE: ao clicar e segurar
+
+a:active{
+            color: yellowgreen;
+        }
+
+PSEUDO-ELEMENTOS:
+
+Alteram o conteúdo de determinado elemento HTML.
+
+a:after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+}
+------------------------------------------------------
+
+MODELO de CAIXAS - BOX MODEL:
+
+PADDING: da borda para DENTRO
+MARGIN: da borda para FORA
+
+Box-Level:
+
+Sempre quebra linha e usa a largura total da página.
+
+ex: <DIV>, <h1>, <p>, <main>, <header>, <nav>, <form>, <article>, <aside>, <footer>, <video>
+
+Inline-Level:
+
+Não quebra linha e continua dentro do conteúdo.
+
+ex: <SPAN>, <a>, <code>, <small>, <strong>, <label>, <button>, <input>, <select>, <em>, <sup>-<sub> 
+
+User agent: é o navegador
+
+BORDER:
+
+Assim:
+border-width: 5px;
+border-style: solid;
+border-color: black;
+
+Ou:
+border: 10px solid darkslateblue;
+
+MARGIN, PADDING e OUTLINE:
+margin: 20px auto 40px auto;
+
+padding: 10px;
+
+outline-width: 5px;
+outline-style: dashed;
+outline-color: salmon;
+
+TAGS SEMÂNTICAS:
+
+Header
+Nav
+Main
+Section
+Article
+Aside
+Footer
+------------------------------------------------------

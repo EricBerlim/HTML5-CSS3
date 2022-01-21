@@ -1,0 +1,60 @@
+------------------------------------------------------
+HTML5 e CSS3 - PARTE 2:
+------------------------------------------------------
+
+MOCKFLOW: Site que monta a estrutura de um site.
+
+Texto + CTRL + SHIFT + P + digitar WRAP + tag + ENTER.
+
+Irá envelopar o trecho selecionado com a tag digitada.
+
+VARIÁVEIS em CSS:
+
+Assim, você pode definir cores e depois usá-las:
+
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --font-padrao: Arial, Verdana,  sans-serif;
+    --font-android: 'Android';
+}
+
+SITE RESPONSIVO:
+
+Para o Conteúdo:
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+Para as Imagens:
+
+main img{
+    width: 100%;
+}
+
+Para que a imagem se adapte ao dispositivo deve-se envelopar (CTRL + SHIFT + P) a imagem em um PICTURE:
+
+<picture>
+<source media="(max-width: 600px)" srcset="imagens/dan-droids-pq.png">
+
+<img src="imagens/dan-droids.png" alt="primeiro mascote do android">
+<picture> 
+
+CENTRALIZAR VÍDEO:
+
+Envelopar (CTRL + SHIFT + P) o código iframe tirado de um vídeo do Youtube dentro de uma DIV + inserir class.
+
+<div class="video">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+	</iframe>
+</div>
+------------------------------------------------------
