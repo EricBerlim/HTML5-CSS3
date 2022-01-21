@@ -1,0 +1,37 @@
+------------------------------------------------------
+HTML5 e CSS3 - PARTE 3:
+------------------------------------------------------
+
+GIT e GITHUB DESKTOP:
+
+CRIAR REPOSITÓRIO:
+
+No GitHub Desktop você pode criar um novo Repositório, preenchendo as informações abaixo:
+
+Nome: pode ser igual ao da pasta. ex:html5-css3.
+
+Descrição: Curso do Curso em Vídeo
+
+Local: tem que ser a pasta onde estão as sub-pastas
+
+Marcar a opção de iniciar com o Read-me.
+
+Git ignore: none
+
+License: MIT License
+
+Após criar, DESMARQUE a opção PRIVATE.
+
+Caso a criação tenha sido feita private:
+
+Vá no site GitHub -> Repositório -> Settings -> Vá para o fim da página -> Danger Zone -> Mudar para Repositório Público
+
+EXCLUIR REPOSITÓRIO:
+
+A exclusão deve ser feita pelo GitHub Desktop.
+
+Selecione o repositório -> Aba Repository -> Remove
+
+
+
+------------------------------------------------------
