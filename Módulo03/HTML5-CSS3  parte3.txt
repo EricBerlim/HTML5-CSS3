@@ -65,5 +65,28 @@ https://ericberlim.github.io/HTML5-CSS3/
 
 Para acessar os exercícios deve inserir após a barra:
 https://ericberlim.github.io/HTML5-CSS3/exercicios/001.index.html
+------------------------------------------------------
+
+RECURSOS SOCIAIS do GITHUB:
+
+Follow: para pessoas.
+Estrela: para repositórios.
+Issues: tópicos para buscar ajuda.
+------------------------------------------------------
+
+COMO USAR GITHUB EM OUTRO PC:
+
+Requisitos:
+
+- VS Code
+- Git
+- GitHub Desktop
+
+Abrir o GitHub Desktop -> File -> Options -> Accounts -> GitHub.com -> Logar -> File -> Options -> Git-Save
+
+Selecione o repositório -> Clique em clonar -> Escolher a pasta onde armazenar o seu repositório
+
+
+
 
 ------------------------------------------------------
