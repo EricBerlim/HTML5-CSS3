@@ -25,12 +25,22 @@ Após criar, DESMARQUE a opção PRIVATE.
 Caso a criação tenha sido feita private:
 
 Vá no site GitHub -> Repositório -> Settings -> Vá para o fim da página -> Danger Zone -> Mudar para Repositório Público
+------------------------------------------------------
 
 EXCLUIR REPOSITÓRIO:
 
 A exclusão deve ser feita pelo GitHub Desktop.
 
 Selecione o repositório -> Aba Repository -> Remove
+------------------------------------------------------
+
+HOSPEDAR SITE com o GUTHUB PAGES:
+
+Abrir o Repositório desejado.
+
+Clicar em Settings e ir até GitHub Pages.
+
+Depois em Choose a theme e selecione um tema.
 
 
 
