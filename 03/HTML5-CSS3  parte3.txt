@@ -161,5 +161,7 @@ Color - image - position - repeat - size - attachment
 
 background: black url("imagens/...") center center no-repeat cover fixed;
 
+Essa short-hand funciona, exceto com o size.
+
 
 ------------------------------------------------------
