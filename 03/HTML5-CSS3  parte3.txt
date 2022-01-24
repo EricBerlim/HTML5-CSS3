@@ -114,11 +114,52 @@ body{
 }
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 2px solid darkblue;
     border-radius: 15px;
 }
+
+IMAGEM com VÍNCULO - ATTACHMENT:
+
+Fundo rola junto com o conteúdo:
+Padrão - background-attachment: scroll;
+
+Fundo não rola junto:
+background-attachment: fixed;
+
+Para uma melhor experiência pode-se realizar a combinção do background-attachment: fixed com o background-size: cover.
+
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url("imagens/wallpaper002.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+}
+------------------------------------------------------
+
+SHORT-HANDS:
+
+São formas de escrever o código de maneira reduzida, mas que cada uma possui uma ordem específica.
+
+BACKGROUND:
+
+Color - image - position - repeat - size - attachment
+
+background: black url("imagens/...") center center no-repeat cover fixed;
+
 
 ------------------------------------------------------
