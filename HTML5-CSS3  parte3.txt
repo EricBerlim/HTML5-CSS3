@@ -236,13 +236,40 @@ Sua aplicação ficaria da seguinte forma:
 body{
     background-color: var(--cor1);
 }
-------------------------------------------------------
 
-ALTERAR TAMANHO da LETRA para ficar RESPONSIVO:
+Para alterar o texto do site de forma que o seu tamanho apresente responsividade, deve-se usar:
 
 font-size: 10vw;
 
-Assim será 10% da largura da janela.
+Assim, o texto será sempre 10% da largura da janela.
+------------------------------------------------------
+
+EFEITO PARALAX:
+
+Deve-se definir um id="" no HTML correspondente a section do CSS, onde irá ser adicionada a imagem.
+
+Criar a section abaixo:
+
+section#img1{
+
+background-image: url("../imagens/background001.jpg");
+background-position: right center;
+background-size: cover;
+}
+
+Assim que as imagens estiverem posicionadas corretamente, poderá aplicar o efeito paralax:
+
+section.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+SOMBRA INTERNA:
+
+section.imagem{
+
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
 
 
 
