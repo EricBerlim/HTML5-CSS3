@@ -4,18 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@font-face {
+    font-family: 'Xilosa';
+    src: url('xilosa.ttf') format('opentype');
+}
 
 :root{
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursive;
     --font3: 'Sriracha', cursive;
-    --font4: 'Amatic SC', cursive;
+    --font4: 'Xilosa', cursive;
 }
 
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 html, body{
     min-height: 100vh;
@@ -31,6 +35,7 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font2);
+    font-size: 4em;
 }
 header > p{
     padding-bottom: 50px;
@@ -48,7 +53,8 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    font-family: var(--font3); /*3 ou 4 ?*/
+    font-family: var(--font4);
+    font-size: 4vw;
 }
 section.normal{
     background-color: white;
@@ -59,7 +65,8 @@ section.imagem{
     color: white;
 }
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.252);
 }
 footer{

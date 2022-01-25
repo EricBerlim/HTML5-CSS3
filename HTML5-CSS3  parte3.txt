@@ -236,5 +236,14 @@ Sua aplicação ficaria da seguinte forma:
 body{
     background-color: var(--cor1);
 }
+------------------------------------------------------
+
+ALTERAR TAMANHO da LETRA para ficar RESPONSIVO:
+
+font-size: 10vw;
+
+Assim será 10% da largura da janela.
+
+
 
 ------------------------------------------------------
