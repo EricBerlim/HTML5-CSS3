@@ -34,7 +34,7 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font4);
-    font-size: 5.2em;
+    font-size: 5em;
 }
 header > p{
     padding-bottom: 50px;
@@ -53,7 +53,7 @@ section{
     padding-left: 30px;
     line-height: 2em;
     font-family: var(--font4);
-    font-size: 4vw;
+    font-size: 5vw;
 }
 section > p{
     padding-bottom: 2em;
@@ -81,6 +81,7 @@ section#img1{
 }
 section#img2{
     background-image: url("../imagens/background002.jpg");
+    background-position: right center;
 }
 footer{
     background-color: black;
