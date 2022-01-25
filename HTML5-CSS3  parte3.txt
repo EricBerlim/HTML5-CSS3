@@ -271,3 +271,24 @@ section.imagem{
 box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 ------------------------------------------------------
+
+HIERARQUIA de TABELAS:
+
+Table: <table>
+Table Row: <tr> linha de tabela
+Table Data: <td> dados de tabela
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+tr{
+    background-color: grey;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+------------------------------------------------------
