@@ -1,6 +1,6 @@
-------------------------------------------------------
+-----------------------------------------------------
 HTML5 e CSS3 - PARTE 3:
-------------------------------------------------------
+-----------------------------------------------------
 
 GIT e GITHUB DESKTOP:
 
@@ -24,14 +24,14 @@ Após criar, DESMARQUE a opção PRIVATE.
 
 Caso a criação tenha sido feita private:
 Vá no site GitHub -> Repositório -> Settings -> Vá para o fim da página -> Danger Zone -> Mudar para Repositório Público
-------------------------------------------------------
+-----------------------------------------------------
 
 EXCLUIR REPOSITÓRIO:
 
 A exclusão deve ser feita pelo GitHub Desktop.
 
 Selecione o repositório -> Aba Repository -> Remove
-------------------------------------------------------
+-----------------------------------------------------
 
 HOSPEDAR SITE com o GITHUB PAGES:
 
@@ -64,14 +64,14 @@ https://ericberlim.github.io/HTML5-CSS3/
 
 Para acessar os exercícios deve inserir após a barra:
 https://ericberlim.github.io/HTML5-CSS3/exercicios/001.index.html
-------------------------------------------------------
+-----------------------------------------------------
 
 RECURSOS SOCIAIS do GITHUB:
 
 Follow: para pessoas.
 Estrela: para repositórios.
 Issues: tópicos para buscar ajuda.
-------------------------------------------------------
+-----------------------------------------------------
 
 COMO USAR GITHUB EM OUTRO PC:
 
@@ -88,7 +88,7 @@ Selecione o Repositório -> Clique em Clonar -> Escolher a Pasta para armazenar 
 PARA SAIR: Só com o GitHub Desktop aberto:
 
 Aba Reposiry -> Remove -> Marcar a Caixa -> Remove -> File -> Options -> Sign Out -> Git -> Apagar Nome e E-mail -> Salvar -> Esvaziar a Lixeira -> PRONTO
-------------------------------------------------------
+-----------------------------------------------------
 
 IMAGENS de FUNDO:
 
@@ -149,7 +149,7 @@ main{
     border: 2px solid darkblue;
     border-radius: 15px;
 }
-------------------------------------------------------
+-----------------------------------------------------
 
 SHORT-HANDS:
 
@@ -162,7 +162,7 @@ Color - image - position - repeat - size - attachment
 background: black url("imagens/...") center center no-repeat cover fixed;
 
 Essa short-hand funciona, exceto com o size.
-------------------------------------------------------
+-----------------------------------------------------
 
 ALINHAMENTO VERTICAL:
 
@@ -205,7 +205,7 @@ Serve para aplicar alguma alteração de tranformação em alguma caixa, tendo a
 Exemplo: Vai chegar 20px para direita e para baixo:
 
 transform: translate(-50%, -50%);
-------------------------------------------------------
+-----------------------------------------------------
 
 DECLARAÇÃO de VARIÁVEL:
 
@@ -242,7 +242,7 @@ Para alterar o texto do site de forma que o seu tamanho apresente responsividade
 font-size: 10vw;
 
 Assim, o texto será sempre 10% da largura da janela.
-------------------------------------------------------
+-----------------------------------------------------
 
 EFEITO PARALAX:
 
@@ -270,7 +270,7 @@ section.imagem{
 
 box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
-------------------------------------------------------
+-----------------------------------------------------
 
 HIERARQUIA de TABELAS:
 
@@ -291,4 +291,4 @@ td{
     border: 1px solid black;
     padding: 8px;
 }
-------------------------------------------------------
+-----------------------------------------------------
