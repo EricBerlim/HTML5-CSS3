@@ -207,11 +207,34 @@ Exemplo: Vai chegar 20px para direita e para baixo:
 transform: translate(-50%, -50%);
 ------------------------------------------------------
 
-PROJETO CORDEL:
+DECLARAÇÃO de VARIÁVEL:
 
+Abaixo foram criadas variáveis para tipos de fontes:
 
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
 
+Sua aplicação ficaria da seguinte forma:
 
+body{
+    font-family: var(--font1);
+}
 
+Variáveis também podem ser criadas para cores:
+
+:root{
+    --cor1: ...;
+    --cor2: ...;
+    --cor3: ...;
+}
+
+Sua aplicação ficaria da seguinte forma:
+
+body{
+    background-color: var(--cor1);
+}
 
 ------------------------------------------------------
