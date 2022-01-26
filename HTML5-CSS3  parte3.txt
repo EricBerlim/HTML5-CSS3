@@ -276,6 +276,7 @@ HIERARQUIA de TABELAS:
 
 Table: <table>
 Table Row: <tr> linha de tabela
+Table Header: <th> cabeçalho de tabela
 Table Data: <td> dados de tabela
 
 table{
@@ -291,4 +292,64 @@ td{
     border: 1px solid black;
     padding: 8px;
 }
+
+ESTRUTURA para TABELAS GRANDES:
+
+<table>
+	<caption>Texto</caption>
+	<thead>
+		<tr>, <th>, <td>
+	</thead>
+	<tbody>
+		<tr>, <th scope="col">, <td>
+	</tbody>
+	<tfoot>
+		<tr>, <th scope="row">, <td>
+	</tfoot>
+</table>
+
+EFEITO ZEBRADO:
+
+Pode ser feito no CSS da seguinte forma:
+
+tbody > tr:nth-child(2n){
+	background-color: lighgray;
+}
+
+Entre parênteses será sinalizado, como no exemplo (2n), que ficará uma sim e uma não.
+
+Linhas Pares: tbody > tr:nth-child(EVEN)
+
+Linhas Ímpares: tbody > tr:nth-child(ODD)
+
+CABEÇALHO FIXO em TABELAS:
+
+No cabeçalho do arquivo CSS deve-se inserir:
+
+thead > tr > th {
+    position: sticky;
+	top:-1px;
+	background-color: #383838;
+}
+
+É necessário que sejam inseridas também as propriedades top e background para funcionar.
+
+Essa propriedade "sticky" significa "colável", fazendo com que nunca saia daquela posição.
+
+MESCLAR CÉLULAS:
+
+Faz-se por meio da expansão, podendo ser feita por:
+
+Coluna:
+<tr>
+    <td>A</td>
+    <td colspan="2">B</td> /*ocupa 2 colunas*/
+</tr>
+
+Linhas:
+<tr>
+    <td rowspan="3">D</td> /*ocupa 3 linhas*/
+    <td>E</td>
+    <td>F</td>
+</tr>
 -----------------------------------------------------
