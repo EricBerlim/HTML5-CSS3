@@ -307,6 +307,7 @@ ESTRUTURA para TABELAS GRANDES:
 		<tr>, <th scope="row">, <td>
 	</tfoot>
 </table>
+-----------------------------------------------------
 
 EFEITO ZEBRADO:
 
@@ -321,6 +322,7 @@ Entre parênteses será sinalizado, como no exemplo (2n), que ficará uma sim e 
 Linhas Pares: tbody > tr:nth-child(EVEN)
 
 Linhas Ímpares: tbody > tr:nth-child(ODD)
+-----------------------------------------------------
 
 CABEÇALHO FIXO em TABELAS:
 
@@ -335,6 +337,7 @@ thead > tr > th {
 É necessário que sejam inseridas também as propriedades top e background para funcionar.
 
 Essa propriedade "sticky" significa "colável", fazendo com que nunca saia daquela posição.
+-----------------------------------------------------
 
 MESCLAR CÉLULAS:
 
@@ -352,4 +355,18 @@ Linhas:
     <td>E</td>
     <td>F</td>
 </tr>
+-----------------------------------------------------
+
+TABELA RESPONSIVA:
+
+Para tornar uma tabela responsiva, deve-se selecionar TODA a tabela e envelopar numa DIV.
+
+Depois deve-se definir um ID para a DIV, como por exemplo, div#nome:
+
+HTML: <div id="container">
+
+CSS: 
+	div#container{
+    overflow-x: auto;
+}
 -----------------------------------------------------
