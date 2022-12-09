@@ -1,0 +1,7 @@
+--------------------------------------------------
+HTML5 e CSS3 - PARTE 4:
+--------------------------------------------------
+IFRAME:
+
+É uma pequena instância de um site que aparece onde for inserido o a tag <iframe>.
+
