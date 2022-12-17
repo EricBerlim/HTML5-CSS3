@@ -3,5 +3,11 @@ HTML5 e CSS3 - PARTE 4:
 --------------------------------------------------
 IFRAME:
 
-É uma pequena instância de um site que aparece onde for inserido o a tag <iframe>.
+É uma nova e pequena instância de um site que aparece onde for inserido o a tag <iframe>.
+
+Alguns sites possuem uma proteção para que seus conteúdos não sejam inseridos em Iframes.
+
+Tamanho padrão: 300 largura x 150 altura.
+
+Alterar iframe usando CSS terá prioridade.
 

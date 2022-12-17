@@ -1,7 +1,6 @@
-------------------------------------------------------
+--------------------------------------------------
 HTML5 e CSS3 - PARTE 1:
-------------------------------------------------------
-
+--------------------------------------------------
 A EMOÇÃO das CORES:
 
 Neil Patel em "Como cores afetam conversões" afirma que as pessoas levam cerca de 90 segundos para decidir se querem ou não um produto, e que 90% desse decisão baseia-se na sua cor
@@ -59,7 +58,7 @@ Técnica que escolhe 2 pares de cores Complementares, formando um retângulo fin
 
 Monocromia: (Degradê):
 Usa apenas 1 cor, porém em Degradê, dando um ótimo resultado
-------------------------------------------------------
+--------------------------------------------------
 
 FUNÇÕES de CORES no CSS:
 
@@ -83,7 +82,7 @@ O Gradiente é considerado pelo navegador como se fosse uma imagem, por isso usa
 O "90deg" indica a inclinação de 90º no Degradê.
 
 Pode ser inserida qualquer quantidade de cores, uma vez que o próprio navegador saberá gerar o Degradê.
-------------------------------------------------------
+--------------------------------------------------
 
 TIPOGRAFIA:
 
@@ -136,7 +135,7 @@ Tipos de Format():
 - embedded-opentype
 - truetype-aat
 - svg
-------------------------------------------------------
+--------------------------------------------------
 
 SELETORES:
 
@@ -193,7 +192,7 @@ a:after{
             font-weight: normal;
             color: darkgrey;
 }
-------------------------------------------------------
+--------------------------------------------------
 
 MODELO de CAIXAS - BOX MODEL:
 
@@ -242,4 +241,4 @@ Section
 Article
 Aside
 Footer
-------------------------------------------------------
+--------------------------------------------------
