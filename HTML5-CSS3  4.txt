@@ -10,4 +10,54 @@ Alguns sites possuem uma proteção para que seus conteúdos não sejam inserido
 Tamanho padrão: 300 largura x 150 altura.
 
 Alterar iframe usando CSS terá prioridade.
+--------------------------------------------------
+Exemplo:
+<title>Iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 96vw;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+Lista Não Numerada de Links:
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+Cada Link Mudará o Conteúdo do Iframe Respectivo:
+
+    <iframe id="tela" name="frame" srcdoc="">
+        <p>Seu navegador é incompatível!</p>
+    </iframe>
+</body>
+
+<title>Site 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkblue;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeira página de exemplo</h1>
+</body>
+--------------------------------------------------
+SRCDOC:
+
+Pode ser usado no lugar do "src", porém o SRCDOC permite que você inclua HTML nele.
 
