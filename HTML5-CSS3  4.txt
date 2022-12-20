@@ -60,4 +60,22 @@ Cada Link Mudará o Conteúdo do Iframe Respectivo:
 SRCDOC:
 
 Pode ser usado no lugar do "src", porém o SRCDOC permite que você inclua HTML nele.
+--------------------------------------------------
+IFRAMES SEGUROS:
 
+Para isso, utiliza-se na tag iframe, a propriedade sandbox="sandbox".
+
+<iframe src="paginas/pag004.html "sandbox="sandbox">
+
+Bloqueia todo e qualquer acesso que outro site, que esteja dentro do iframe, tentem fazer.
+
+Cria-se uma proteção ainda maior contra ataques.
+
+Outra forma de deixar mais seguro é usar também o referrerpolicy="no-referrer"
+
+Para que o formulário possa funcionar, usa-se:
+
+<iframe src="paginas/pag004.html "sandbox="allow-same-origin">
+
+Como eles estão na mesma origem e servidor, está sendo permitido a utilização do formulário.
+--------------------------------------------------
